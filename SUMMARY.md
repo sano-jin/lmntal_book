@@ -6,9 +6,9 @@
 
 * [LMNtalの基本](lmntal-basics/lmntalno.md)
 
-## FLonLMNtal <a id="flonlmntal-1"></a>
+## FL on LMNtal <a id="flonlmntal-1"></a>
 
-* [Introduction](flonlmntal-1/introduction.md)
+* [FL on LMNtal](flonlmntal-1/introduction.md)
 * [実行順制御](flonlmntal-1/shi-hang-shun-zhi-yu.md)
 * [四則演算、論理演算、if式](flonlmntal-1/si-ze-yan-suan-lun-li-yan-suan-if-shi/README.md)
   * [積と和の式の評価](flonlmntal-1/si-ze-yan-suan-lun-li-yan-suan-if-shi/tonono.md)

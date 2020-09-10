@@ -3,7 +3,7 @@ description: >-
   LMNtalで関数型言語（OCamlの超ミニなサブセット。というよりもFL？）のインタプリタを実装するページです。変なことを言っていたら教えて下さい（たぶんたくさんあると思います）。
 ---
 
-# Introduction
+# FL on LMNtal
 
 ## **はじめに** <a id="hajimeni"></a>
 
