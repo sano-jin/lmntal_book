@@ -2,6 +2,10 @@
 
 * [Front page](README.md)
 
+## LMNtal basics
+
+* [LMNtalの基本](lmntal-basics/lmntalno.md)
+
 ## FLonLMNtal <a id="flonlmntal-1"></a>
 
 * [Introduction](flonlmntal-1/introduction.md)
@@ -15,8 +19,4 @@
 * [再帰関数](flonlmntal-1/zai-gui-guan-shu.md)
 * [まとめ](flonlmntal-1/matome.md)
 * [参考文献](flonlmntal-1/can-kao-wen-xian.md)
-
-## LMNtal basics
-
-* [LMNtalの基本](lmntal-basics/lmntalno.md)
 
