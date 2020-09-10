@@ -9,5 +9,10 @@ description: >-
 
 LMNtalはLISPみたいなものなので簡単に関数型言語のインタプリタが作成出来る。
 
-##   <a id="undefined"></a>
+## 事前条件 <a id="undefined"></a>
+
+各種略記法などがわかっていること
+
+  
+
 
