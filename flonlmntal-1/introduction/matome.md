@@ -20,16 +20,16 @@
 % let f = fun x -> x + 1 in f 2 --> 3
 // test = eval(let("f", fun("x", "x" + 1), app("f", 2)), []).
  
-% let rec fib n = 
+% let rec fac n = 
 % 	if n = 0 then 1 
-%		else n * fib (n-1) 
-% in fib 5
+%		else n * fac (n-1) 
+% in fac 5
 % -> 120
 test = eval(
- let_rec("fib", "n", 
+ let_rec("fac", "n", 
   if("n" =< 0, 1, 
-   "n" * app("fib", "n" - 1)),
- app("fib", 5)), 
+   "n" * app("fac", "n" - 1)),
+ app("fac", 5)), 
  []).
  
 eval_left_child @@
