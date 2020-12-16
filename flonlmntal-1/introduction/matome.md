@@ -61,9 +61,9 @@ eval_value @@
  R = fireable(not, val(false)) :- R = val(true).
  
  R = fireable(eq, val(X), val(Y)) :- X == Y | R = val(true).
- R = fireable(eq, val(X), val(Y)) :- X \= Y | R = val(false).
+ R = fireable(eq, val(X), val(Y)) :- X \== Y | R = val(false).
  
- R = fireable(neq, val(X), val(Y)) :- X \= Y | R = val(true).
+ R = fireable(neq, val(X), val(Y)) :- X \== Y | R = val(true).
  R = fireable(neq, val(X), val(Y)) :- X == Y | R = val(false).
  
  R = fireable(lt, val(X), val(Y)) :- X < Y | R = val(true).
@@ -109,7 +109,7 @@ resolve_val @@
  
 lookup_val @@
  R = eval(Var1, [let(Var2, Val)|T]) :- 
- string(Var1), Var1 \= Var2, ground(Val) |
+ string(Var1), Var1 \== Var2, ground(Val) |
  R = eval(Var1, T). 
  
 eval_fun @@

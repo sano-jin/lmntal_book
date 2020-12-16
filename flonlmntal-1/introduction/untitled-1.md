@@ -53,7 +53,7 @@ description: 変数を追加します。
  
  lookup_val @@
  R = eval(Var1, [let(Var2, Val)|T]) :- 
- string(Var1), Var1 \= Var2, ground(Val) |
+ string(Var1), Var1 \== Var2, ground(Val) |
  R = eval(Var1, T).
 ```
 

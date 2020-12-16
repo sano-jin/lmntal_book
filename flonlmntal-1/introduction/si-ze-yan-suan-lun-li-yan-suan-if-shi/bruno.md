@@ -81,9 +81,9 @@ test = eval(and(not(false), or(false, true))).
 
 ```text
  R = fireable(eq, val(X), val(Y)) :- X == Y | R = val(true).
- R = fireable(eq, val(X), val(Y)) :- X \= Y | R = val(false).
+ R = fireable(eq, val(X), val(Y)) :- X \== Y | R = val(false).
  
- R = fireable(neq, val(X), val(Y)) :- X \= Y | R = val(true).
+ R = fireable(neq, val(X), val(Y)) :- X \== Y | R = val(true).
  R = fireable(neq, val(X), val(Y)) :- X == Y | R = val(false).
  
  R = fireable(lt, val(X), val(Y)) :- X < Y | R = val(true).
